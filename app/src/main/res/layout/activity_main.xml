@@ -68,7 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="@string/address"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:autoLink="web"/>
 
         <TextView
             android:id="@+id/website"
