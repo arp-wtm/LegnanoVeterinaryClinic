@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ambulatorio Veterinario LegnanoVet</string>
+    <string name="centralbuttonbar">barraBottoniCentrale</string>
+    <string name="legnanovetlogodescription">immagineDescrittiva</string>
+    <string name="address">Via S.Caterina, 25 20025 Legnano MI IT</string>
+    <string name="mail_button">bottoneMail</string>
+    <string name="whatsapp_button">bottoneWhatsApp</string>
+    <string name="facebook_button">bottoneFacebook</string>
+    <string name="call">chiama</string>
+    <string name="telephone_call">chiamataTelefonica</string>
+</resources>

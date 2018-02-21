@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Legnano Veterinary Clinic</string>
+    <string name="centralbuttonbar">centralButtonBar</string>
+    <string name="legnanovetlogodescription">legnanovetLogoDescription</string>
+    <string name="address">S. Caterina Street, 25  20025 Legnano Mi IT</string>
+    <string name="mail_button">mail_button</string>
+    <string name="whatsapp_button">whatsapp_button</string>
+    <string name="facebook_button">facebook_button</string>
+    <string name="website" translatable="false">www.legnanovet.it</string>
+    <string name="mail" translatable="false">mail</string>
+    <string name="whatsapp" translatable="false">whats</string>
+    <string name="facebook" translatable="false">like</string>
+    <string name="telephone_call">telephone call</string>
+    <string name="call">call</string>
+</resources>

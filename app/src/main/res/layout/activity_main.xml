@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.antonella.legnanoveterinaryclinic.MainActivity">
+
+        <ImageView
+            android:id="@+id/legnanovet_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/legnanovetlogodescription"
+            android:src="@drawable/legnanovet_logo" />
+
+        <LinearLayout
+            android:id="@+id/central_button_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/centralbuttonbar"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/telephone_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/telephone_call"
+                android:text="@string/call" />
+
+            <Button
+                android:id="@+id/mail_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/mail_button"
+                android:text="@string/mail" />
+
+            <Button
+                android:id="@+id/facebook_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/facebook_button"
+                android:text="@string/facebook" />
+
+            <Button
+                android:id="@+id/whatsapp_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/whatsapp_button"
+                android:text="@string/whatsapp" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/address"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:autoLink="web"
+            android:text="@string/website"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>
